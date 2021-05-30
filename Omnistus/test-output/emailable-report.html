@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">149,053</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.OmistusCrm.Approach.CreateContact</td><td><a href="#m0">VerifyCreateContact</a></td><td rowspan="1">1622208205711</td><td rowspan="1">36880</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.OmistusCrm.Counsel.verifyLeadCreation</td><td><a href="#m1">leadCreation</a></td><td rowspan="1">1622208161375</td><td rowspan="1">16978</td></tr><tr class="passedodd"><td rowspan="1">com.OmistusCrm.Operation.Demo</td><td><a href="#m2">run</a></td><td rowspan="1">1622208144332</td><td rowspan="1">1</td></tr><tr class="passedeven"><td rowspan="1">com.OmistusCrm.Operation.Remo</td><td><a href="#m3">run</a></td><td rowspan="1">1622208094545</td><td rowspan="1">19</td></tr><tr class="passedodd"><td rowspan="1">com.OmistusCrm.Operation.VerifyOperationCreation</td><td><a href="#m4">verifyOperationTest</a></td><td rowspan="1">1622208119905</td><td rowspan="1">24423</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">com.OmistusCrm.Approach.CreateContact#VerifyCreateContact</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">VerifyCreateContact Started<br/>Home page is Displayed<br/>VerifyCreateContact Failed</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain &quot;Incorrect key&quot;. Current title: &quot;Zoho CRM - Create Contact&quot; (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-Q6F9PJA&apos;, ip: &apos;192.168.65.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 8064, moz:profile: C:\Users\hp\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1849ddf4-fb9e-4239-9744-b0a55e6f2729
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.OmistusCrm.generic.WebDriverCommonLib.waitForPage(WebDriverCommonLib.java:28)
+	at com.OmistusCrm.Approach.CreateContact.VerifyCreateContact(CreateContact.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.OmistusCrm.Counsel.verifyLeadCreation#leadCreation</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">leadCreation Started<br/>Home page is Displayed<br/>Custom View Page is Displayed<br/> Create LeadPage is Displayed<br/>leadCreation Passed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.OmistusCrm.Operation.Demo#run</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">run Started<br/> Demotestcases running sucussfulluy<br/>run Passed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.OmistusCrm.Operation.Remo#run</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">run Started<br/>Remo testcases running sucussfulluy<br/>run Passed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.OmistusCrm.Operation.VerifyOperationCreation#verifyOperationTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">verifyOperationTest Started<br/>Home page is Displayed<br/>Custom View Page is Displayed<br/>Create Campaign Page is Displayed<br/>Our Campaign is Created<br/>verifyOperationTest Passed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

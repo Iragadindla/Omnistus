@@ -1,0 +1,12 @@
+
+<suite name="Suite">
+  <test  name="Test">
+    <classes>
+      <class name="com.OmistusCrm.Operation.Remo"/>
+      <class name="com.OmistusCrm.Operation.VerifyOperationCreation"/>
+      <class name="com.OmistusCrm.Operation.Demo"/>
+      <class name="com.OmistusCrm.Counsel.verifyLeadCreation"/>
+      <class name="com.OmistusCrm.Approach.CreateContact"/>
+    </classes>
+  </test> 
+</suite> 

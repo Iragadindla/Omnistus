@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[TestTest Runner Started]]>
+    </line>
+    <line>
+      <![CDATA[run Started]]>
+    </line>
+    <line>
+      <![CDATA[Remo testcases running sucussfulluy]]>
+    </line>
+    <line>
+      <![CDATA[run Passed]]>
+    </line>
+    <line>
+      <![CDATA[LoginPage is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[verifyOperationTest Started]]>
+    </line>
+    <line>
+      <![CDATA[Home page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Custom View Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Create Campaign Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Our Campaign is Created]]>
+    </line>
+    <line>
+      <![CDATA[verifyOperationTest Passed]]>
+    </line>
+    <line>
+      <![CDATA[run Started]]>
+    </line>
+    <line>
+      <![CDATA[ Demotestcases running sucussfulluy]]>
+    </line>
+    <line>
+      <![CDATA[run Passed]]>
+    </line>
+    <line>
+      <![CDATA[LoginPage is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[leadCreation Started]]>
+    </line>
+    <line>
+      <![CDATA[Home page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Custom View Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[ Create LeadPage is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[leadCreation Passed]]>
+    </line>
+    <line>
+      <![CDATA[LoginPage is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[VerifyCreateContact Started]]>
+    </line>
+    <line>
+      <![CDATA[Home page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[VerifyCreateContact Failed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-05-28T18:51:34 IST" name="Suite" finished-at="2021-05-28T18:54:03 IST" duration-ms="149053">
+    <groups>
+    </groups>
+    <test started-at="2021-05-28T18:51:34 IST" name="Test" finished-at="2021-05-28T18:54:03 IST" duration-ms="149053">
+      <class name="com.OmistusCrm.Operation.Demo">
+        <test-method signature="run()[pri:0, instance:com.OmistusCrm.Operation.Demo@7193666c]" started-at="2021-05-28T18:52:24 IST" name="run" finished-at="2021-05-28T18:52:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[run Started]]>
+            </line>
+            <line>
+              <![CDATA[ Demotestcases running sucussfulluy]]>
+            </line>
+            <line>
+              <![CDATA[run Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run -->
+      </class> <!-- com.OmistusCrm.Operation.Demo -->
+      <class name="com.OmistusCrm.Operation.Remo">
+        <test-method signature="run()[pri:0, instance:com.OmistusCrm.Operation.Remo@6a192cfe]" started-at="2021-05-28T18:51:34 IST" name="run" finished-at="2021-05-28T18:51:34 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[run Started]]>
+            </line>
+            <line>
+              <![CDATA[Remo testcases running sucussfulluy]]>
+            </line>
+            <line>
+              <![CDATA[run Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run -->
+      </class> <!-- com.OmistusCrm.Operation.Remo -->
+      <class name="com.OmistusCrm.Operation.VerifyOperationCreation">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.OmistusCrm.Operation.VerifyOperationCreation@5119fb47]" started-at="2021-05-28T18:51:34 IST" name="openBrowser" finished-at="2021-05-28T18:51:59 IST" duration-ms="25292" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[LoginPage is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifyOperationTest()[pri:0, instance:com.OmistusCrm.Operation.VerifyOperationCreation@5119fb47]" started-at="2021-05-28T18:51:59 IST" name="verifyOperationTest" finished-at="2021-05-28T18:52:24 IST" duration-ms="24423" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[verifyOperationTest Started]]>
+            </line>
+            <line>
+              <![CDATA[Home page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Custom View Page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Create Campaign Page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Our Campaign is Created]]>
+            </line>
+            <line>
+              <![CDATA[verifyOperationTest Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyOperationTest -->
+      </class> <!-- com.OmistusCrm.Operation.VerifyOperationCreation -->
+      <class name="com.OmistusCrm.Counsel.verifyLeadCreation">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.OmistusCrm.Counsel.verifyLeadCreation@20deea7f]" started-at="2021-05-28T18:52:24 IST" name="openBrowser" finished-at="2021-05-28T18:52:41 IST" duration-ms="17040" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[LoginPage is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="leadCreation()[pri:0, instance:com.OmistusCrm.Counsel.verifyLeadCreation@20deea7f]" started-at="2021-05-28T18:52:41 IST" name="leadCreation" finished-at="2021-05-28T18:52:58 IST" duration-ms="16978" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[leadCreation Started]]>
+            </line>
+            <line>
+              <![CDATA[Home page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Custom View Page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[ Create LeadPage is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[leadCreation Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- leadCreation -->
+      </class> <!-- com.OmistusCrm.Counsel.verifyLeadCreation -->
+      <class name="com.OmistusCrm.Approach.CreateContact">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.OmistusCrm.Approach.CreateContact@3835c46]" started-at="2021-05-28T18:52:58 IST" name="openBrowser" finished-at="2021-05-28T18:53:25 IST" duration-ms="27353" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[LoginPage is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="VerifyCreateContact()[pri:0, instance:com.OmistusCrm.Approach.CreateContact@3835c46]" started-at="2021-05-28T18:53:25 IST" name="VerifyCreateContact" finished-at="2021-05-28T18:54:02 IST" duration-ms="36880" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for title to contain "Incorrect key". Current title: "Zoho CRM - Create Contact" (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-Q6F9PJA', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 8064, moz:profile: C:\Users\hp\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1849ddf4-fb9e-4239-9744-b0a55e6f2729]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "Incorrect key". Current title: "Zoho CRM - Create Contact" (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-Q6F9PJA', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 8064, moz:profile: C:\Users\hp\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1849ddf4-fb9e-4239-9744-b0a55e6f2729
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at com.OmistusCrm.generic.WebDriverCommonLib.waitForPage(WebDriverCommonLib.java:28)
+at com.OmistusCrm.Approach.CreateContact.VerifyCreateContact(CreateContact.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+            <line>
+              <![CDATA[VerifyCreateContact Started]]>
+            </line>
+            <line>
+              <![CDATA[Home page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[VerifyCreateContact Failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyCreateContact -->
+      </class> <!-- com.OmistusCrm.Approach.CreateContact -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
