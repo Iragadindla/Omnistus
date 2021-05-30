@@ -8,6 +8,7 @@
       <class name="com.OmistusCrm.Counsel.verifyLeadCreation"/>
       <class name="com.OmistusCrm.Approach.CreateContact"/>
       <class name="com.OmistusCrm.Operation.Sumo"/>
+      
     </classes>
   </test> 
 </suite> 
