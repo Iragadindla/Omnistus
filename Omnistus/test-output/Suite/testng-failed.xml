@@ -3,13 +3,13 @@
 <suite name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.OmistusCrm.Approach.CreateContact">
+      <class name="com.OmistusCrm.Operation.verifyAllActiveOperaions">
         <methods>
           <include name="closeBrowser"/>
+          <include name="allActiveOperations"/>
           <include name="openBrowser"/>
-          <include name="VerifyCreateContact"/>
         </methods>
-      </class> <!-- com.OmistusCrm.Approach.CreateContact -->
+      </class> <!-- com.OmistusCrm.Operation.verifyAllActiveOperaions -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

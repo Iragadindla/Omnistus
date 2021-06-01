@@ -2,6 +2,7 @@ package com.OmistusCrm.generic;
 
 import java.io.File;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
@@ -69,6 +70,12 @@ public class WebDriverCommonLib extends BaseTest{
 		// TODO Auto-generated method stub
 		return null;
 	}
-	
-
+	public void switchToPopupAndClickonOkBtn() {
+		Alert al=driver.switchTo().alert();
+		al.accept();
+	}
+public void switchToPopupAndClickonCancelBtn () {
+	Alert al=driver.switchTo().alert();
+	al.dismiss();
+}
 }

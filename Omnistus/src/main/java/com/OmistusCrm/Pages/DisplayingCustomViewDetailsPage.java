@@ -5,6 +5,7 @@ import java.util.List;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Reporter;
 
 import com.OmistusCrm.generic.BaseTest;
@@ -15,11 +16,12 @@ public class DisplayingCustomViewDetailsPage {
 	private WebElement NewCampaignBtn;
 	@FindBy(xpath = "//table[@class='secContent']//tbody//tr[*]//td[@class=\"tableData\"][3]")
 	private List<WebElement> campaignList;
-	@FindBy(xpath = "//input[@value= 'New Lead']")
-	private WebElement NewLeadBtn;
-	@FindBy(xpath = "//a[text()='Gopi_123']']")
-	private WebElement GopiLink;
-
+	@FindBy(xpath = "//input[@value= 'New Lead']")private WebElement NewLeadBtn;
+	@FindBy(xpath="//a[text()='Gopi_123']")private WebElement gopilink;
+	
+	@FindBy(xpath="//select[@name='cvid']")private WebElement status;
+    @FindBy(xpath="//a[text()='Raghav']")private WebElement RaghavLink;
+	
 	public DisplayingCustomViewDetailsPage() {
 		PageFactory.initElements(BaseTest.driver, this);
 
@@ -50,14 +52,17 @@ public class DisplayingCustomViewDetailsPage {
 		}
 
 	}
+	
 
-	public WebElement getGopiLink() {
-		return GopiLink;
+	public WebElement getStatus() {
+		return status;
+	}
+	public void selectdropdown(String Value) {
+		Select select=new Select(status);
+		select.selectByValue(Value);
 	}
 
-	public void clickgopiLink() {
-		GopiLink.click();
-	}
+	
 
 	public WebElement getNewLeadBtn() {
 		return NewLeadBtn;
@@ -66,4 +71,17 @@ public class DisplayingCustomViewDetailsPage {
 	public void clickNewLead() {
 		NewLeadBtn.click();
 	}
+
+	public WebElement getRaghavLink() {
+		return RaghavLink;
+	}
+public void clickRaghav() {
+	RaghavLink.click();
+}
+public WebElement getGopilink() {
+	return gopilink;
+}
+public void clickonGopi() {
+	gopilink.click();
+}
 }

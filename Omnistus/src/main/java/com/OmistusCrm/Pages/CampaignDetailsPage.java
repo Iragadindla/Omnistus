@@ -9,7 +9,7 @@ import com.OmistusCrm.generic.BaseTest;
 public class CampaignDetailsPage {
 	@FindBy(xpath="//td[@id='mouseArea__Description']/ancestor::table/following-sibling::table[1]/descendant::input[@value='Edit']")
 	private WebElement EditBtn;
-	//@FindBy(xpath="//td[@id='mouseArea__Description']/ancestor::table/following-sibling::table[1]/descendant::input[@value='Delete']")
+	@FindBy(xpath="//td[@id='mouseArea__Description']/ancestor::table/following-sibling::table[1]/descendant::input[@value='Delete']")
 	private WebElement deleteBtn;
 	//@FindBy(xpath="//td[@id='mouseArea__Campaign Name']") private WebElement CmpName;
 	
@@ -23,6 +23,12 @@ public class CampaignDetailsPage {
 public void clickEditBtn() {
 	EditBtn.click();
 	
+}
+public WebElement getDeleteBtn() {
+	return deleteBtn;
+}
+public void clickDeliteBtn() {
+	deleteBtn.click();
 }
 
 

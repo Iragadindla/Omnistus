@@ -22,8 +22,8 @@ public class verifyLeadCreation extends BaseTest {
 		hp.clickLeadsTab();
 		WebDriverCommonLib wlib=new WebDriverCommonLib();
 		FileLib flib=new FileLib();
-		wlib.verify(wlib.getPageTitle(),flib.readPropData(PROP_PATH, "customViewTitle"), "Custom View Page");
-		
+		//wlib.verify(wlib.getPageTitle(),flib.readPropData(PROP_PATH, "customViewTitle"), "Custom View Page");
+
 		 DisplayingCustomViewDetailsPage dcp=new  DisplayingCustomViewDetailsPage();
 		 dcp.clickNewLead();
 		 wlib.verify(wlib.getPageTitle(),flib.readPropData(PROP_PATH, "createLeadTitle"), " Create LeadPage");
